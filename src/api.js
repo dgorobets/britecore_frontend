@@ -1,4 +1,4 @@
-const baseHost = 'http://127.0.0.1:8000';
+const baseHost = process.env.REACT_APP_API_HOST;
 
 
 export async function fetchRiskTypeList() {
